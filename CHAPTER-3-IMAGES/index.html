@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- added viewport first because images looked too large before -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Poster Collection</title>
+
+  <!-- css and js separated to keep html cleaner -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>CHAPTER 3 IMAGES</h1>
+
+  <!-- left this text a bit playful because the posters already look serious -->
+  <p>Three poster designs with filter effects WoOoaAaHhH!! :OOO</p>
+</header>
+
+<section class="poster-gallery">
+
+  <!-- first poster -->
+  <article class="poster-card">
+    <img src="images/poster1.jpg"
+         alt="Retro travel style poster"
+         title="Vintage poster"
+         width="300"
+         height="390">
+
+    <!-- filter buttons under image -->
+    <div class="controls">
+      <button data-effect="grayscale">Mono</button>
+      <button data-effect="sepia">Sepia</button>
+      <button data-effect="contrast">Contrast</button>
+      <button data-effect="reset">Reset</button>
+    </div>
+
+    <p>Artist: Kursat Unsal</p>
+  </article>
+
+  <!-- second poster has slightly taller size -->
+  <article class="poster-card">
+    <img src="images/poster2.jpg"
+         alt="Historic poster design"
+         title="Propaganda poster"
+         width="300"
+         height="420">
+
+    <div class="controls">
+      <button data-effect="grayscale">Mono</button>
+      <button data-effect="sepia">Sepia</button>
+      <button data-effect="contrast">Contrast</button>
+      <button data-effect="reset">Reset</button>
+    </div>
+
+    <p>Artist: J. Howard Miller</p>
+  </article>
+
+  <!-- third one is tallest so I kept original proportions -->
+  <article class="poster-card">
+    <img src="images/poster3.jpg"
+         alt="Obama campaign poster"
+         title="Campaign poster"
+         width="300"
+         height="450">
+
+    <div class="controls">
+      <button data-effect="grayscale">Mono</button>
+      <button data-effect="sepia">Sepia</button>
+      <button data-effect="contrast">Contrast</button>
+      <button data-effect="reset">Reset</button>
+    </div>
+
+    <p>Artist: Shepard Fairey</p>
+  </article>
+
+</section>
+
+<section class="bonus">
+  <div id="a">div#A</div>
+  <div id="b">div#B</div>
+  <div id="c">div#C</div>
+  <div id="d">div#D</div>
+</section>
+
+</body>
+</html>

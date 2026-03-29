@@ -1,0 +1,63 @@
+:root {
+  --bg-dark: #f1f1f1;
+  --card-color: #ffffff;
+  --footer-color: #349b2b;
+
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-color: var(--bg-dark);
+
+  /* vertical layout */
+  display: flex;
+  flex-direction: column;
+}
+
+/* center content area */
+.page-wrapper {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+/* video section */
+.video-box {
+  background-color: var(--card-color);
+
+  padding: 20px;
+  border-radius: 8px;
+
+  text-align: center;
+
+  width: 70%;
+  max-width: 700px;
+}
+
+.video-box h1 {
+  margin-top: 0;
+}
+
+/* the video itself */
+video {
+  width: 100%;
+  max-width: 600px;
+
+  /* a little gap under video */
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--footer-color);
+
+  color: white;
+  padding: 10px;
+}

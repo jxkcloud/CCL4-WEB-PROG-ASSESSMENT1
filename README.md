@@ -3,7 +3,7 @@ CCL4 WEB PROGRAMMING ASSESSMENT 1
 This repository contains my work for the Web Development exercises across each chapter.
 Each task is saved in its own folder to keep everything organised.
 
----
+
 
 # Chapter 1
 
@@ -15,7 +15,7 @@ I created a recipe page using basic HTML structure, including headings, paragrap
 
 For the bonus task I made a simple reference page showing HTML tags and CSS properties with examples.
 
----
+
 
 # Chapter 2
 
@@ -27,7 +27,7 @@ I built a simple one-page website with sections, anchor links, and external CSS 
 
 I then split the same content into multiple pages and added navigation to each page.
 
----
+
 
 # Chapter 3
 
@@ -39,7 +39,7 @@ This task used three themed images with alt text, titles, sizing, filters, and c
 
 For the bonus exercise I recreated the provided div design using CSS.
 
----
+
 
 # Chapter 4
 
@@ -47,7 +47,7 @@ For the bonus exercise I recreated the provided div design using CSS.
 
 I recreated the given webpage layout using semantic HTML elements such as header, nav, main, aside, and footer.
 
----
+
 
 # Chapter 5
 
@@ -55,7 +55,7 @@ I recreated the given webpage layout using semantic HTML elements such as header
 
 I embedded a local video into an HTML page with looping, a poster image, and centred positioning.
 
----
+
 
 # Chapter 6
 

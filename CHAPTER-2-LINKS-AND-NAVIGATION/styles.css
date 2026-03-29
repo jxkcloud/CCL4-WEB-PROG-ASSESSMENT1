@@ -1,0 +1,83 @@
+/* dark theme because it fits ORV better */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+/* sticky top bar so nav stays visible while scrolling */
+.top-bar {
+  background-color: #1d1d1d;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+/* title spacing looked weird before so adjusted margin */
+.top-bar h1 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+}
+
+/* nav links */
+nav a {
+  color: #9fd3ff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* simple hover effect */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* centered main content */
+main {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/* section box style */
+.content-box {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-left: 4px solid #6fb3ff;
+}
+
+/* used darker variation for alternating sections */
+.dark-box {
+  background-color: #191919;
+}
+
+/* small card look for each character */
+.character-card {
+  background-color: #2a2a2a;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+/* required link styled like button */
+.visit-button {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #4ea3ff;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+}
+
+/* button hover */
+.visit-button:hover {
+  background-color: #2f87e6;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #000;
+  margin-top: 20px;
+}

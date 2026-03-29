@@ -17,7 +17,7 @@ For the bonus task I made a simple reference page showing HTML tags and CSS prop
 
 
 
-Chapter 2
+## Chapter 2
 
 One-Page Website
 
@@ -29,7 +29,7 @@ I then split the same content into multiple pages and added navigation to each p
 
 
 
-Chapter 3
+## Chapter 3
 
 Three Images
 
@@ -41,7 +41,7 @@ For the bonus exercise I recreated the provided div design using CSS.
 
 
 
-Chapter 4
+## Chapter 4
 
 Structuring a Webpage
 
@@ -49,7 +49,7 @@ I recreated the given webpage layout using semantic HTML elements such as header
 
 
 
-Chapter 5
+## Chapter 5
 
 Embed Video
 
@@ -57,12 +57,12 @@ I embedded a local video into an HTML page with looping, a poster image, and cen
 
 
 
-Chapter 6
+## Chapter 6
 
 Petrol Calculator
 
 I created a petrol calculator using HTML, CSS, and JavaScript, with input fields, hover/focus effects, and a button that calculates total cost.
 
-# Notes
+## Notes
 
 * Bonus tasks were completed for Chapters 1 to 3 only

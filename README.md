@@ -63,11 +63,6 @@ I embedded a local video into an HTML page with looping, a poster image, and cen
 
 I created a petrol calculator using HTML, CSS, and JavaScript, with input fields, hover/focus effects, and a button that calculates total cost.
 
----
-
 # Notes
 
 * Bonus tasks were completed for Chapters 1 to 3 only
-* Later chapters include required exercises only
-
----
